@@ -44,7 +44,7 @@
     div.cooked img.emoji-custom.only-emoji, div.d-editor-preview img.emoji-custom.only-emoji {
         height: inherit !important;
         width: inherit !important;
-        max-width: $custom_emoji_size_limit;
-        max-height: $custom_emoji_size_limit;
+        max-width: #{$custom_emoji_size_limit}px;
+        max-height: #{$custom_emoji_size_limit}px;
     }
 }

@@ -1,35 +1,35 @@
 hide_delete_user_from_review:
-  type: boolean
+  type: bool
   default: true
   description:
     zh_CN: "在审核界面隐藏删除用户的处理选项"
     en: "Hide the delete user from review option"
 hide_logout_for_jwb:
-  type: boolean
+  type: bool
   default: true
   description:
     zh_CN: "如果使用交我办访问，则隐藏登出选项"
     en: "Hide the logout option if accessed by jwb"
 remove_hidden_gap:
-  type: boolean
+  type: bool
   default: true
   description:
     zh_CN: "删除隐藏帖子的空白"
     en: "Remove hidden gap"
 remove_shield_icon_from_username:
-  type: boolean
+  type: bool
   default: true
   description:
     zh_CN: "隐藏管理人员用户名后面的盾牌图标"
     en: "Remove the shield icon from the username of the staff"
 remove_solved_text:
-  type: boolean
+  type: bool
   default: true
   description:
     zh_CN: "隐藏\"解决方案\"的文字提醒"
     en: "Remove the text reminder of \"Solved\""
 unset_custom_emoji_size:
-  type: boolean
+  type: bool
   default: true
   description:
     zh_CN: "取消自定义表情的大小限制"
