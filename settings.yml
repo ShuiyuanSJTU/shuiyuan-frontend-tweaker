@@ -32,8 +32,8 @@ unset_custom_emoji_size:
   type: bool
   default: true
   description:
-    zh_CN: "取消自定义表情的大小限制"
-    en: "Unset the size limit of custom emoji"
+    zh_CN: "取消自定义表情的默认大小限制"
+    en: "Unset the default size limit of custom emoji"
 custom_emoji_size_limit:
   type: integer
   default: 128
