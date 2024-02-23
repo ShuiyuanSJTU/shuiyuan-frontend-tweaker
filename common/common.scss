@@ -1,0 +1,50 @@
+@if $hide_delete_user_from_review == "true"{
+    .select-kit-collection li[data-value='post-delete_user']{
+        display:none;
+    }
+    
+    .select-kit-collection li[data-value='post-delete_user_block']{
+        display:none;
+    }
+    
+    .select-kit-collection li[data-value='delete_user']{
+        display:none;
+    }
+    
+    .select-kit-collection li[data-value='delete_user_block']{
+        display:none;
+    }
+}
+
+@if $hide_logout_for_jwb == "true"{
+    html.jwb .logout{
+        display: none;
+    }
+}
+
+@if $remove_hidden_gap == "true"{
+    body:not(.staff) .post-stream .gap {
+        display: none;
+    }
+}
+
+@if $remove_shield_icon_from_username == "true"{
+    .names .svg-icon-title{
+        display: none;
+    }
+}
+
+@if $remove_solved_text == "true"{
+    .post-controls .unaccepted .d-button-label {
+        display: none;
+    }
+}
+
+@if $unset_custom_emoji_size == "true"{
+    div.cooked img.emoji-custom.only-emoji, div.d-editor-preview img.emoji-custom.only-emoji {
+        height: inherit !important;
+        width: inherit !important;
+        max-width: $custom_emoji_size_limit;
+        max-height: $custom_emoji_size_limit;
+    }
+}
