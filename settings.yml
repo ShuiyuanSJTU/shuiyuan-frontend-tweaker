@@ -40,3 +40,9 @@ custom_emoji_size_limit:
   description:
     zh_CN: "自定义表情的大小限制"
     en: "The size limit of custom emoji"
+remove_screened_email_allow_button:
+  type: bool
+  default: true
+  description:
+    zh_CN: "删除\"已屏蔽的电子邮件\"中\"允许\"按钮"
+    en: "Remove the \"Allow\" button"

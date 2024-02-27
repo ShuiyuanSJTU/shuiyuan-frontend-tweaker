@@ -48,3 +48,9 @@
         max-height: #{$custom_emoji_size_limit}px;
     }
 }
+
+@if $remove_screened_email_allow_button == "true"{
+    .admin-contents.screened-emails td.action button {
+        display: none;
+    }
+}
