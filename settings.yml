@@ -46,3 +46,9 @@ remove_screened_email_allow_button:
   description:
     zh_CN: "删除\"已屏蔽的电子邮件\"中\"允许\"按钮"
     en: "Remove the \"Allow\" button"
+fix_chat_image_thumbnail:
+  type: bool
+  default: true
+  description:
+    zh_CN: "修复聊天图片缩略图"
+    en: "Fix the thumbnail of chat images"
