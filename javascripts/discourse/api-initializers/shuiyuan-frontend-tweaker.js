@@ -10,6 +10,7 @@ export default apiInitializer("0.11.1", api => {
   const siteSettings = api._lookupContainer("service:site-settings");
   if (siteSettings.secure_uploads && settings.fix_chat_image_thumbnail) {
     api.modifyClass("component:chat-upload", {
+      pluginId: "shuiyuan-frontend-tweaker",
       get imageUrl() {
         if (this.args.upload.thumbnail?.url) {
           const url = new URL(this.args.upload.thumbnail?.url, location.href);
