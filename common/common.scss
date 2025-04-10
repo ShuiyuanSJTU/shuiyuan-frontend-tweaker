@@ -55,6 +55,13 @@
     }
 }
 
+@if $revert_editor_font == "true"{
+    .d-editor-container--rich-editor-enabled .d-editor-textarea-wrapper textarea.d-editor-input{
+        font-family: var(--font-family) !important;
+        font-size: var(--font-0) !important;
+    }
+}
+
 .watermark-background-widget {
     position: absolute;
     width: 100%;

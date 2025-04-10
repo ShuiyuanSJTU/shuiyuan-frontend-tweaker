@@ -52,3 +52,9 @@ fix_chat_image_thumbnail:
   description:
     zh_CN: "修复聊天图片缩略图"
     en: "Fix the thumbnail of chat images"
+revert_editor_font:
+  type: bool
+  default: true
+  description:
+    zh_CN: "恢复编辑器字体"
+    en: "Revert the editor font"
