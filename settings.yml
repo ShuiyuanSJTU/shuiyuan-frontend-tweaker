@@ -58,3 +58,9 @@ revert_editor_font:
   description:
     zh_CN: "恢复编辑器字体"
     en: "Revert the editor font"
+hide_tag_separator:
+  type: bool
+  default: true
+  description:
+    zh_CN: "隐藏标签分隔符"
+    en: "Hide the tag separator"

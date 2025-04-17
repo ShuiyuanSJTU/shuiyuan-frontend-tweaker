@@ -62,6 +62,12 @@
     }
 }
 
+@if $hide_tag_separator == "true"{
+    .discourse-tags__tag-separator {
+        display: none;
+    }
+}
+
 .watermark-background-widget {
     position: absolute;
     width: 100%;
